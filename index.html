@@ -1,13 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css" />
     <script src="bootstrap/js/bootstrap.min.js"></script>
     <title>Comet</title>
 </head>
+
 <body>
-    
+    <header>
+        <nav class="navbar fixed-top navbar-expand-lg">
+            <div class="container-fluid">
+                <div class="d-flex align-items-center">
+                    <div class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </div>
+                    <div class="navbar-brand">
+                        <a href="#"><img class="logo-brand" src="assets/images/comet-logo.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <!-- navbar offcanvas drawer header-->
+                    <div class="offcanvas-header align-items-space-between">
+                        <div class="offcanvas-title container-fluid" id="offcanvasNavbarLabel">
+                            <a href="#">
+                                <img class="logo-brand" src="assets/images/comet-logo.png" alt="">
+                            </a>
+                        </div>
+                        <!-- <div class="container-fluid"></div> -->
+                        <div type="button" class="btn-nav-close" data-bs-dismiss="offcanvas" aria-label="Close">
+                            <img class="btn-nav-close d-inline align-items-end" src="assets/images/menu-hamburger.png" alt="">
+                        </div>
+                    </div>
+
+                    <!-- navbar offcanvas drawer body-->
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">HOME</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">ABOUT US</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">OUR CLIENT</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">BLOG</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">CONTACT US</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <footer></footer>
 </body>
+
 </html>

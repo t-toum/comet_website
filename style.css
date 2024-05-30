@@ -1,0 +1,19 @@
+.navbar-toggler{
+    border: none;
+    
+}
+.navbar-toggler-icon {
+    background-image: url("assets/images/menu-hamburger.png");
+    width: 28px;
+    height: 20px;
+}
+.logo-brand {
+    width: 100%;
+    height: 100%;
+    max-width: 117px;
+    max-height: 30px;
+}
+.btn-nav-close {
+    width: 28px;
+    height: 20px;
+}
